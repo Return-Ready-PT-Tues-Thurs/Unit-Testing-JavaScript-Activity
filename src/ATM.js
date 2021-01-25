@@ -5,7 +5,6 @@ class ATM {
             throw new TypeError('Amount must be numeric');
         } else {
             this.amount = parseFloat(amount);
-            // this.interestRate = amount;
         }
         //interest rate is put in as a percentage, if user wishes to put in interest as a whole number (eg 20% -> 20, would need to divide by 100)
         if (isNaN(interestRate)) {
