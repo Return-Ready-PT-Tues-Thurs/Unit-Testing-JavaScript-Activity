@@ -18,5 +18,8 @@
   "homepage": "https://github.com/code-differently/Unit-Testing-JavaScript-Activity#readme",
   "devDependencies": {
     "chai": "^4.2.0"
+  },
+  "dependencies": {
+    "chai-asserttype-extra": "^1.2.0"
   }
 }
